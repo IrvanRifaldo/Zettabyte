@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(27, 27 , 27);
+}
+
+.container {
+    display: flex;
+}
+
+.card {
+    background: white;
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+}
+
+.card-image {
+    background-color: aqua;
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.car-1 {
+    background-image: url(https://unsplash.com/photos/9wg5jCEPBsw);
+}
+
+.car-2 {
+    background-image: url(https://www.pexels.com/id-id/foto/orang-berjalan-di-pantai-3876332/);
+}
+
+.car-3 {
+    background-image: url(https://unsplash.com/photos/xfngap_DToE);
+}
